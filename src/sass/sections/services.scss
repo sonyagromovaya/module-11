@@ -1,0 +1,81 @@
+.services-text{
+    text-align: center;
+    color: $brown-text-color;
+    margin: 54px 0 100px;
+    position: relative;
+}
+
+.services-text__description{
+    margin: 0 0 22px;
+    font-family: $header-font;
+    font-size: 24px;
+}
+
+.services-text__title{
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.services-text:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: $pink-color;
+    left: 50%;
+    bottom: -40px;
+    margin-left: -30px;
+
+}
+
+.services-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    color: $brown-text-color;
+    padding-bottom: 50px;
+}
+
+.services-list__item{
+    width: 400px;
+    position: relative;
+    padding-left: 90px;
+}
+
+.services-list__item:not(:nth-last-child(-n+3)){
+    margin-bottom: 80px;
+}
+
+.services-list__title{
+    font-weight: 400;
+    font-size: 14px;
+    color: $brown-text-color;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 16px;
+}
+
+.services-list__description{
+    font-family: $text-font;
+    font-size: 15px;
+    font-weight: 400;
+    color: $light-brown-color;
+    text-align: left;
+    margin: 0;
+}
+
+.services-list__svg{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}

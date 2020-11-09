@@ -1,0 +1,107 @@
+
+.footer__line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color:$gray-color;
+}
+
+.footer-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 60px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* padding: 24px 0 24px; */
+}
+.footer-item__madeby{
+    font-weight: 400;
+    color: $brown-text-color;
+    font-size: 15px;
+}
+
+.madeby-span{
+    color:$pink-color;
+}
+
+.footer-form{
+    width: 380px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer__email{
+    border: 1px solid $gray-color;
+    width: 230px;
+}
+
+.footer__email::-webkit-input-placeholder{
+    color: $gray-second-color;
+    font-family: $text-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 12px;
+}
+
+.footer__email::-moz-placeholder{
+    color: $gray-second-color;
+    font-family: $text-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 12px;
+}
+
+.footer__email:-ms-input-placeholder{
+    color: $gray-second-color;
+    font-family: $text-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 12px;
+}
+
+.footer__email::-ms-input-placeholder{
+    color: $gray-second-color;
+    font-family: $text-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 12px;
+}
+
+.footer__email::placeholder{
+    color: $gray-second-color;
+    font-family: $text-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-left: 12px;
+}
+
+.footer__btn{
+    width: 150px;
+    height: 40px;
+    background-color: $light-blue-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    color: $white-color;
+    font-weight: 700;
+    font-family: $primary-font;
+    padding-left: 0;
+    padding-right: 0;
+}
